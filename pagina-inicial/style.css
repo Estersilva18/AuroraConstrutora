@@ -15,3 +15,38 @@
     --linha-footer: #2A373D;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    background: linear-gradient(var( --cor-fundo) 0%, #0F3242 49%, var(--cor-fundo) 100%);
+}
+
+.logo{
+    display: flex;
+    align-items: baseline;
+    gap: 8;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none; 
+}
+
+
+
+
+
