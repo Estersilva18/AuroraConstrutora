@@ -30,22 +30,64 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 40px;
-    background: linear-gradient(var( --cor-fundo) 0%, #0F3242 49%, var(--cor-fundo) 100%);
+    padding: 25px 70px;
+    background: linear-gradient(to right, var( --cor-fundo) 0%, #0F3242 49%, var(--cor-fundo) 100%);
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right, #BD9464 0%, #856846 55%, #BD9464 100%) 1;
 }
 
 .logo{
     display: flex;
     align-items: baseline;
-    gap: 8;
+    gap: 10px;
 }
 
+.logo h1{
+    font-family: 'Cormorant Garamond', sans-serif;
+    color: var(--logo-aurora); 
+}
+
+.logo h2{
+    font-family: 'Content', sans-serif;
+    font-size: 16px;
+    color: var(--logo-construtora);
+}
 
 ul{
     display: flex;
     gap: 20px;
     list-style: none; 
 }
+
+li .topico{
+    text-decoration: none;
+    color: var(--cor-letra);
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    margin-left: 25px;
+    transition: 0.3s;
+}
+
+.topico:hover{
+    color: #ecbd89;
+}
+
+.fale-conosco-btn{
+    text-decoration: none;
+    color: #BD9464;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 12px 35px;
+    border: 3px solid var(--logo-aurora);
+    transition: 0.3s;
+}
+
+.fale-conosco-btn:hover{
+    background: var(--logo-aurora);
+    color: var(--dormitorio);
+}
+
 
 
 
