@@ -109,9 +109,40 @@ li .topico{
 }
 
 .btn{
-    
+    display: flex;
+    gap: 20px;
+
 }
 
+.btn .projetos{
+    text-decoration: none;
+    color: var(--cor-fundo);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 23px 30px;
+    background-color: #BD9464;
+    transition: 0.3s;
+}
+
+.btn .projetos:hover{
+    transform: scale(1.05);
+}
+
+.btn .consultor{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 12px 35px;
+    border: 5px solid var(--cor-letra);
+    transition: 0.3s;
+}
+
+.btn .projetos:hover{
+    transform: scale(1.05);
+}
 
 
 
