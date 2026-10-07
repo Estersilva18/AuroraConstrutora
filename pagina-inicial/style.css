@@ -92,6 +92,14 @@ li .topico{
     color: var(--dormitorio);
 }
 
+.container-banner {
+  position: absolute; 
+  top: 50%;          
+  left: 70px;         
+  transform: translateY(-50%); 
+  z-index: 3; /*faz o texto ficar sobre o video e o gradiente*/
+}
+
 .container-banner h3{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -196,7 +204,7 @@ li .topico{
     rgba(14, 34, 43, 0.00) 100%   /* Totalmente transparente à direita para mostrar o vídeo */
   );
   
-  pointer-events: none;
+  pointer-events: none; /*aqui a gente coloca pra não aparecer aquelas opições de ampliar o video etc*/
 }
 
 
