@@ -21,6 +21,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #000000;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -93,19 +97,23 @@ li .topico{
     font-weight: 500;
     font-size: 13px;
     color: #BD9464;
+    margin-bottom: 3px;
 }
 
 .container-banner h1{
     font-family: 'Inter', sans-serif;
     font-size: 45px;
-    font-weight: 500;
+    font-weight: 400;
     color: #D4D4D4;
+    margin-bottom: 25px;
 }
 
 .container-banner p{
     font-family: 'Inter', sans-serif;
+    font-weight: 300;
     font-size: 18px;
     color: #FFFFFF;
+    margin-bottom: 25px;
 }
 
 .btn{
@@ -119,7 +127,7 @@ li .topico{
     color: var(--cor-fundo);
     font-family: 'Inter', sans-serif;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 700;
     padding: 23px 30px;
     background-color: #BD9464;
     transition: 0.3s;
@@ -127,21 +135,26 @@ li .topico{
 
 .btn .projetos:hover{
     transform: scale(1.05);
+    background-color: #cf9e66;
 }
 
 .btn .consultor{
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
     font-size: 13px;
     font-weight: 500;
     padding: 12px 35px;
-    border: 5px solid var(--cor-letra);
+    border: 4px solid var(--cor-letra);
     transition: 0.3s;
 }
 
-.btn .projetos:hover{
+.btn .consultor:hover{
     transform: scale(1.05);
+    background-color: #FFFFFF;
+    color: #041D28;
 }
 
 /* Container do Banner */
