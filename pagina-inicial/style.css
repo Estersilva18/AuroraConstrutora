@@ -169,7 +169,7 @@ li .topico{
 .banner {
   position: relative;
   width: 100%;
-  height: 100vh; /* ou a altura do seu banner */
+  height: 80vh; /* ou a altura do seu banner */
   overflow: hidden;
 }
 
