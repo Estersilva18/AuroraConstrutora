@@ -144,6 +144,48 @@ li .topico{
     transform: scale(1.05);
 }
 
+/* Container do Banner */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* ou a altura do seu banner */
+  overflow: hidden;
+}
+
+/* O Vídeo de Fundo */
+.bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: 1; /* Fica ao fundo de tudo */
+}
+
+/* O Gradiente em cima do Vídeo (Substitui a imagem do Figma) */
+.banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  
+  /* Gradiente baseado nas cores reais do seu layout */
+  background: linear-gradient(
+    90deg, 
+    rgba(14, 34, 43, 0.95) 0%,    /* Azul escuro bem opaco na ponta esquerda */
+    rgba(14, 34, 43, 0.85) 30%,   /* Mantém a opacidade sob os textos */
+    rgba(14, 34, 43, 0.40) 65%,   /* Transição suave no meio */
+    rgba(14, 34, 43, 0.00) 100%   /* Totalmente transparente à direita para mostrar o vídeo */
+  );
+  
+  pointer-events: none;
+}
+
 
 
 
