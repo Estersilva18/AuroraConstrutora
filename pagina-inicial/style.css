@@ -101,10 +101,10 @@ li .topico{
 }
 
 .btn-zap{
-    display: fl;
+    display: flex;
     position: absolute;
     width: 20px;
-    height: 20px;
+    height: 2px;
     z-index: 3;   
 }
 
