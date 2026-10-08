@@ -22,7 +22,7 @@
 }
 
 body{
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 html{
@@ -205,6 +205,30 @@ li .topico{
   );
   
   pointer-events: none; /*aqui a gente coloca pra não aparecer aquelas opições de ampliar o video etc*/
+}
+
+.quem-somos{
+    background-color: #17242A;
+}
+
+.quem-somos h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 60px 40PX 90px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+span{
+    color: #D7B38A;
+}
+
+.info-saibamais img{
+    width: 480px;
+    height: 650px;
 }
 
 
