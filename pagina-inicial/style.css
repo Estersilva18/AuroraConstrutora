@@ -331,9 +331,9 @@ li .topico{
   justify-content: flex-end;
 }
 
-.btn-ver-mais a {
+.btn-ver-mais a{
   text-decoration: none;
-  color: #BD9464;
+  color: var(--cor-letra);
   font-family: 'Inter', sans-serif;
   font-size: 13px;
   font-weight: 500;
@@ -343,7 +343,64 @@ li .topico{
   transition: 0.3s;
 }
 
-.btn-ver-mais a:hover {
-  background-color: #BD9464;
-  color: #17242A;
+.btn-ver-mais a:hover{
+  transform: scale(1.05);
+  color: #041D28;
+  background-color: #cf9e66;
+}
+
+.serviços{
+  background-color: #0A1317;
+  padding: 90px 90px;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 200px; /*tenho que arrimar isso de posi para centralizar*/
+}
+
+.card img{
+  width: 60px;
+  margin-left: 50px;
+  margin-bottom: 8px;
+}
+
+.card h1{
+  color: var(--cor-letra);
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.card p{
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  color: var(--descricao);
+}
+
+.btn-serviços{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.btn-serviços a{
+  text-decoration: none;
+  color: var(--cor-letra);
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 12px 28px;
+  border: 2px solid #BD9464;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.btn-serviços a:hover{
+  transform: scale(1.05);
+  color: #041D28;
+  background-color: #cf9e66;
 }
