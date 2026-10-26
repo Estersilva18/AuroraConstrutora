@@ -357,7 +357,7 @@ li .topico{
 .cards{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-left: 200px; /*tenho que arrimar isso de posi para centralizar*/
+  margin-left: 300px; /*tenho que arrimar isso de posi para centralizar*/
 }
 
 .card img{
