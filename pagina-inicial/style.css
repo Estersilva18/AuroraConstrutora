@@ -404,3 +404,22 @@ li .topico{
   color: #041D28;
   background-color: #cf9e66;
 }
+
+.projeto-destaque{
+  background-color: var(--cor-fundo);
+  padding: 220px 90px;
+}
+
+.pj-titulo {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 1.0rem;
+  letter-spacing: 3px;
+  color: #ffffff;
+  margin-bottom: 70px;
+}
+
+.pj-titulo span {
+  color: #D7B38A;
+}
